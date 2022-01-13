@@ -49,6 +49,15 @@ let fillRects = [
 ]
 
 /*
+Notes: 
+    - If you leave the fillStyle like this: 
+        context.fillStyle = randRBG()
+        you get a different color for every fill
+        end up with a tv static-type pattern 
+
+    - if you set the fillRect height value to 500, you get 
+        full vertical bars across the entire canvas. 
+
 // draw arc of circles
     let radius = 100;//outer radius
     let rows = 7;//number of rows
